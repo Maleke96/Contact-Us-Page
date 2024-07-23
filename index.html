@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.css">
+    <link rel="stylesheet" href="./aos.css">
+    <link rel="stylesheet" href="./bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    
+        <h1>Contact Us</h1>
+    
+
+    <div class="container">
+        <div class="content">
+            <div class="left">
+                <div class="address details">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="topic">Address</div>
+                    <div class="text-one">NO 1 Solomon Avenue, Olowoira</div>
+                    <div class="text-two">Lagos, Nigeria</div>
+                </div>
+
+                <div class="phone details">
+                    <i class="fa-solid fa-phone-alt"></i>
+                    <div class="topic">Phone</div>
+                    <div class="text-one">+234 701 845 9999</div>
+                    <div class="text-two">+234 802 334 8769</div>
+                </div>
+
+                <div class="email details">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="topic">Email</div>
+                    <div class="text-one">lasop@gmail.com</div>
+                    <div class="text-two">lasop@hotmail.com</div>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="topic-text">Send us a message</div>
+                <p>If you have any work for us or any type of queries related to our products, you can send a message from here. Its our pleasure to help you.</p>
+
+                <form id="myForm">
+                    <div class="input">
+                        <input id="name" type="text" placeholder="Enter your name" name="from_name">
+                    </div>
+                    <div class="input">
+                        <input id="email" type="email" placeholder="Enter your email" name="from_email">
+                    </div>
+
+                    <div class="input message">
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <button id="popup" type="button" value="Send">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="container">
+
+        <div class="popup">
+
+            <i class="fa-regular fa-circle-check"></i> 
+
+            <h2>Thank You!</h2>
+            <p>Message sent Successfully. Thanks!</p>
+            <button id="button" type="button">OK</button>
+        </div>
+
+
+    </div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./aos.js"></script>
+    <script src="./jquery.min.js"></script>
+    <script src="./script.js"></script>
+
+
+</body>
+</html>
